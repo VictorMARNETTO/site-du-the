@@ -32,23 +32,24 @@
 
 /*GLOBAL
 ========================================*/
-
-html{
+ 
+html {
 	background-color: #fff;
 }
 
-h1, h2, h3{
+h1, h2, h3,h4 {
 	font-family: "Lato","Arial","sans-serif";
 	text-transform: uppercase;
 }
 
-h1{
+h1 {
 	color:#eee;
 	letter-spacing: -1px;
 	font-weight: 300;
 	word-spacing: 10px; 
 }
-h2{
+
+h2 {
 	color: #000;
 	font-size: 250%;
 	text-align: center;
@@ -56,7 +57,7 @@ h2{
 	margin-bottom: 30px;
 }
 
-h2:after{
+h2:after {
 	display: block;
 	height: 2px;
 	background-color: green;
@@ -67,23 +68,29 @@ h2:after{
 }
 
 
-h3{
+h3 {
 	font-size: 160%;
 }
 
-p{
+p {
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 24px;
 }
 
-a{
+a {
 	color: #5ee077;
 }
+
+section {
+	padding: 30px 0 60px 0;
+}
+
+
 /*HEADER
 =======================================*/
 
-header{
+header {
 	background-image: linear-gradient(	rgba(0,242,96,0.3),
 										rgba(7,117,130,0.8)	)
 										,url(../pictures/background.jpg);
@@ -92,27 +99,27 @@ header{
 	background-size: cover;
 }
 
-.home-title{
+.home-title {
 	position: absolute;
 	top: 30%;
 }
 
-.home-title h1{
+.home-title h1 {
 	font-size: 340%;
 	color: #fff;
 }
 
-.home-title h1 span{
+.home-title h1 span {
 	font-weight: 700;
 }
 
-.home-title p{
+.home-title p {
 	color: #fff;
 }
 
 /*BUTTON*/
 
-.btn{
+.btn {
 	display: inline-block;
 	padding: 10px 30px;
 	text-decoration: none;
@@ -120,25 +127,25 @@ header{
 	transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
-.btn-full{
+.btn-full {
 	background-color: azure;
 	color: #5ee077;
 	margin-right: 15px;
 }
 
-.btn-ghost{
+.btn-ghost {
 	border: 1px solid #5ee077;
 	color: #fff;
 }
 
-.btn-full:hover{
+.btn-full:hover {
 	border: 1px solid #fff;
 	border-color: #5ee077;
 	background-color: transparent;
 	color: #fff;
 }
 
-.btn-ghost:hover{
+.btn-ghost:hover {
 	background-color: #fff;
 	color: #5ee077;
 	border: 0px;
@@ -148,22 +155,113 @@ header{
 /*PRODUITS
 =======================================*/
 
-.produits-plus{
+.produits-plus {
 	margin: 20px 0;
 }
 
-.produits-plus:hover .produits-icon{
+.produits-plus:hover .produits-icon {
 	color: #33cc33;
 	transform: translateX(20px) ;
 }
 
-.produits-img{
+.produits-img {
 	max-width: 100%;
 	height: auto;
 }
 
-.produits-icon{
+.produits-icon {
 	font-size: 34px;
 	color: #1f7a1f;
 	transition: all 0.6s;
+}
+
+
+/*FAMILLES
+=======================================*/
+
+.famille-the {
+	background-color: #1affb2;
+}
+
+.famille-details {
+	background-color: #fff;
+	padding: 40px 30px;
+	border-radius: 20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.famille-details img {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.famille-details h4 {
+	text-align: center;
+}
+
+/*GALERY
+=======================================*/
+
+.galeries-img {
+	display: block;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	margin-bottom: 30px;
+}
+
+.galery-text {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+}
+
+.galery-text h4 {
+	color: #fff;
+}
+
+/*AVIS CLIENTS
+=======================================*/
+
+.clients {
+	background-image:linear-gradient(	rgba(0,242,96,0.3),
+										rgba(7,117,130,0.8)	),url(../pictures/clients/the-paysage.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.clients h2 {
+	color: #fff;
+}
+
+.clients h2:after {
+	background-color: #fff;
+}
+
+blockquote {
+	padding: 5px;
+	font-style: italic;
+	height: 130%;
+	color: #fff;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 50px;
+}
+
+cite {
+	font-size: 90%;
+	display: block;
+	margin-top: 20px;
+}
+
+cite img {
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
 }
