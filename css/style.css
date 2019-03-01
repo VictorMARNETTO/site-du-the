@@ -74,8 +74,9 @@ h3 {
 
 p {
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 700;
 	line-height: 24px;
+	font-family: "Lato","Arial","sans-serif";
 }
 
 a {
@@ -252,6 +253,8 @@ blockquote {
 blockquote:before {
 	content: "\201C";
 	font-size: 50px;
+	font-family: "Sanchez", "Arial", "sans-serif";
+	color: rgba(255,255,255,0.7);
 }
 
 cite {
@@ -265,3 +268,99 @@ cite img {
 	border-radius: 50%;
 	margin-right: 10px;
 }
+
+
+
+/*PACKS
+=======================================*/
+
+.pack {
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
+
+.pack h3 {
+	color:  #2eb82e;
+	font-weight: 400;
+}
+
+.pack h4 {
+	font-size: 200%;
+	font-weight: 100;
+}
+
+.pack-title {
+	padding: 10px 10px 0 10px;
+	border-bottom: 3px solid #2eb82e;
+}
+
+.pack-title-premium {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	background-color: #fff;
+	color: green;
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.pack-title span {
+	font-size: 50%;
+	position:relative;
+	top: -12px;
+	left: -5px;
+}
+
+.pack-content ul {
+	list-style: none;
+	padding: 20px;
+	font-weight: 300;
+	line-height: 35px;
+}
+
+.pack-content ul li i {
+	font-size: 90%;
+	margin-right: 5px;
+}
+
+.pack-signup {
+	text-align: center;
+}
+
+.btn-pack {
+	background-color: #239623;
+	color: #fff;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px #000;
+
+}
+
+.btn-pack:hover {
+	background-color: #0e400e;
+	color: #fff;
+	transition: 1s;
+	box-shadow: 0px 0px 10px #000;
+
+}
+
+.pack-premium {
+	background-color: #2eb82e;
+	color: #fff;
+}
+
+.pack-premium h3 {
+	color: #145214;
+}
+
+.pack-premium .pack-title {
+	border-bottom: 3px solid #adebad; 
+}
+.pack-elite {
+	background-color:  #1f7a1f;
+	color: #fff;
+}
+ .pack-elite h3 {
+ 	color: #0a290a;
+ }
