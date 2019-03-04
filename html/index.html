@@ -4,7 +4,7 @@
 
 
 <head>
-    <title>Ma première page HTML</title>
+    <title>L'Art du Thé</title>
 
     <meta charset="utf-8">
 
@@ -34,7 +34,7 @@
 <body>
 	<header>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light style="background-color: #0b8700;">
   			<a class="navbar-brand" href="index.html">L'Art du Thé <img src="../pictures/tea-leaf-navbar.png" class="leaf-logo" /></a>
   				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
@@ -256,39 +256,24 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="galeries-img" style="background-image: url(../pictures/galery/the1.jpg)">
-						<div class="galery-text">
-							<h4>Image 1 thé</h4>
-						</div>
 					</div>
 				</div>
 				<div class="col-md-8">
 					<div class="galeries-img" style="background-image: url(../pictures/galery/the2.jpg)">
-						<div class="galery-text">					
-							<h4>Image 2 thé</h4>
-						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-5">
 					<div class="galeries-img" style="background-image: url(../pictures/galery/the3.jpg)">
-						<div class="galery-text">
-							<h4>Image 3 thé</h4>
-						</div>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="galeries-img" style="background-image: url(../pictures/galery/the4.jpg)">
-						<div class="galery-text">
-							<h4>Image 4 thé</h4>
-						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="galeries-img" style="background-image: url(../pictures/galery/the5.jpg)">
-						<div class="galery-text">
-							<h4>Image 5 thé</h4>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -374,7 +359,7 @@
 							<h3>Premium</h3>
 							<h4>19,99€ <span>/mois</span></h4>
 							<p>Pour les amoureux du thé.</p>
-							<p class="pack-title-premium">Le plus populaire</p>
+							<p class="pack-title-premium">Le plus <br/> populaire</p>
 						</div>
 						<div class="pack-content">
 							<ul>
@@ -452,14 +437,14 @@
 							<div class="col-md-6">
 								<div class="contact-form">
 									<label>Nom:</label>
-									<input type="text" id="name" placeholder="Votre Nom" />
+									<input type="text" id="name" class="name" placeholder="Nom" />
 								</div>
 							</div>
 								<!-- Email -->
 							<div class="col-md-6">
 								<div class="contact-form">
 									<label>Email:</label>
-									<input type="email" id="email" placeholder="Ajouter votre email" />
+									<input type="email" id="email" class="email" placeholder="Email" />
 									<br />
 									<small>Vous ne receverez pas de publicités.</small>
 								</div>
@@ -505,23 +490,17 @@
 	</section>
 
 	<footer>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="copyright">
-					<p>site de thé - 2019</p>
-				</div>
+		<nav class="navbar footer navbar-expand-lg style="background-color: #000;"">
+			<div class="btn-footer">
+	  			<button class="snip1582">Copyright</button>
+	  		</div>
+			<div class="btn-footer">
+				<button class="snip1582">Mentions Légales</button>
 			</div>
-			<div class="col-md-4">
-				<div class="mentions">
-					 <a href="#">Mentions Légales</a>
-				</div>
+			<div class="btn-footer">
+				<button class="snip1582">Infos</button>
 			</div>
-			<div class="col-md-4">
-				<div class="reseaux">
-					<a href=""><i class="fab fa-facebook-f"></i></a>
-				</div>
-			</div>
-		</div>
+		</nav>
 	</footer>
 
 <!-- SCRIPT JQUERY ANIMATION NAVBAR
